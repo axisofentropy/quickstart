@@ -115,11 +115,6 @@ namespace Worker
                                     ('fake5', 'a'),
                                     ('fake6', 'a'),
                                     ('fake7', 'a'),
-                                    ('fake8', 'b'),
-                                    ('fake9', 'b'),
-                                    ('fake10', 'b'),
-                                    ('fake11', 'b'),
-                                    ('fake12', 'b'),
                                     ('fake13', 'b'),
                                     ('fake14', 'b'),
                                     ('fake15', 'b')
