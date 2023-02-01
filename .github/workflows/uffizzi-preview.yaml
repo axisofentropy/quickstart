@@ -27,7 +27,7 @@ jobs:
                run_id: context.payload.workflow_run.id,
             });
             let matchArtifact = allArtifacts.data.artifacts.filter((artifact) => {
-              return artifact.name == "docker-compose"
+              return artifact.name == "preview-spec"
             })[0];
             if (matchArtifact === undefined) {
               throw TypeError('Build Artifact not found!');
@@ -39,9 +39,9 @@ jobs:
                archive_format: 'zip',
             });
             let fs = require('fs');
-            fs.writeFileSync(`${process.env.GITHUB_WORKSPACE}/docker-compose.zip`, Buffer.from(download.data));
+            fs.writeFileSync(`${process.env.GITHUB_WORKSPACE}/preview-spec.zip`, Buffer.from(download.data));
       - name: 'Unzip artifact'
-        run: unzip docker-compose.zip
+        run: unzip preview-spec.zip
 
       - name: Read Event into ENV
         run: |
