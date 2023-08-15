@@ -47,6 +47,7 @@ Running this workflow will create a [Uffizzi Cloud](https://uffizzi.com) account
 
 Open-source projects preview for free on Uffizzi Cloud. All other accounts can subscribe to our Starter or Pro plans. See [our pricing](https://uffizzi.com/pricing) for details. Or if you're an open-source maintainer, you can request free access as by sending an email to opensource@uffizzi.com. Alternatively, if you don't want to use Uffizzi Cloud, you can [install open-source Uffizzi](https://github.com/UffizziCloud/uffizzi_app/blob/develop/INSTALL.md) on your own Kubernetes cluster.
 
+
 ## Acceptable Use
 
 We strive to keep Uffizzi Cloud free or inexpensive for individuals and small teams. Therefore, activities such as crypto mining, filesharing, bots, and similar uses that lead to increased cost and intermittent issues for other users are strictly prohibited per the [Acceptable Use Policy](https://uffizzi.zendesk.com/hc/en-us/articles/4410657390999-Acceptable-Use-Policy). Violators of this policy are subject to permanent ban.
